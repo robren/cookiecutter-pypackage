@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from docopt import docopt
 
 """Naval Fate.
 
@@ -19,6 +18,8 @@ Options:
   --drifting    Drifting mine.
 
 """
+from docopt import docopt
+
 
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='Naval Fate 2.0')
